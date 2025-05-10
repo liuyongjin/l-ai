@@ -1,0 +1,49 @@
+:root {
+  /* 主题色 */
+  --primary-color: #10a37f;
+
+  /* 辅助色 */
+  // --secondary-color: #9d8df2;
+
+  /* 背景色 */
+  --bg-dark: #101014;
+  --bg-dark-scrollbar: rgba(255, 255, 255, 0.2);
+  --bg-dark-active: linear-gradient(270deg, #323337 50%, rgba(80, 62, 110, 0.29) 100%);
+
+  /* 亮色主题背景 */
+  // --bg-light: #fff;
+
+  /* 文本颜色 */
+  --text-dark-primary: #e0e0e0;
+
+  /* 边框颜色 */
+  --border-dark: #ffffff17;
+
+  /* 响应式断点 */
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 992px;
+  --breakpoint-lg: 1200px;
+  --breakpoint-xl: 1600px;
+
+  /* 间距 */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+
+  /* 圆角 */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-circle: 50%;
+
+  /* Z-index层级 */
+  --z-index-overlay: 200;
+  --z-index-fixed: 300;
+
+  /* el css var */
+  --el-color-primary: var(--primary-color);
+}

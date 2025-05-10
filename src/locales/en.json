@@ -1,0 +1,25 @@
+{
+  "chat": {
+    "searchPlaceholder": "Search conversations...",
+    "newChat": "Create a new chat",
+    "deleteChat": "Delete Chat",
+    "confirmDelete": "Are you sure to delete this chat? This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "send": "Send",
+    "sendFailed": "Send failed",
+    "thinking": "Thinking",
+    "deleteSuccess": "Chat deleted successfully",
+    "deleteFailed": "Failed to delete chat",
+    "inputPlaceholder": "Type a message, press Enter to send...",
+    "features": {
+      "parseDocument": "Parse Document",
+      "economicDevelopment": "Economic Development",
+      "translateToEnglish": "Translate to English",
+      "longTimeNoSee": "Long time no see",
+      "sampleQuestion": "Sample Question",
+      "liuBeiShoes": "Liu Bei's Shoes"
+    },
+    "newChatPlaceholder": "Enter chat title..."
+  }
+}
