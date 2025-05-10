@@ -71,6 +71,12 @@ const copyAllCode = () => {
   padding: 8px 16px;
   background-color: var(--bg-dark-active);
   border-radius: var(--border-radius-md);
+  div {
+    word-break: break-all;
+  }
+  p {
+    word-break: break-all;
+  }
 }
 
 .has-code-blocks {

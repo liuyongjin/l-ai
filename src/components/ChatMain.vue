@@ -58,10 +58,10 @@
           <SvgIcon
             v-if="message.role === 'user'"
             path="user-avatar.svg"
-            :size="40"
+            :size="32"
             :color="PRIMARY_COLOR"
           />
-          <SvgIcon v-else path="ai-gpt-avatar.svg" :size="40" :color="PRIMARY_COLOR" />
+          <SvgIcon v-else path="ai-gpt-avatar.svg" :size="32" :color="PRIMARY_COLOR" />
         </div>
         <div class="message-content">
           <MarkdownRenderer
@@ -282,11 +282,12 @@ defineExpose({ messagesContainer })
   }
 
   .message-avatar {
+    flex: 0 0 32px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     overflow: hidden;
 
