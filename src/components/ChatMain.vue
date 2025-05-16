@@ -253,6 +253,7 @@ defineExpose({ messagesContainer })
     padding: 16px;
     border-radius: 8px;
     text-align: center;
+    cursor: pointer;
 
     h3 {
       margin: 0 0 10px;

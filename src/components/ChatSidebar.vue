@@ -132,11 +132,11 @@ const createChat = () => {
 
     &.active {
       font-weight: 600;
-      background-color: var(--bg-dark-active);
+      background: var(--bg-dark-active);
     }
 
     &:hover {
-      background-color: var(--bg-dark-active);
+      background: var(--bg-dark-active);
     }
   }
 

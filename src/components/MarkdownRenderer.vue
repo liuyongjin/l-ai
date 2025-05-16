@@ -69,7 +69,7 @@ const copyAllCode = () => {
 .markdown-renderer {
   position: relative;
   padding: 8px 16px;
-  background-color: var(--bg-dark-active);
+  background: var(--bg-dark-active);
   border-radius: var(--border-radius-md);
   div {
     word-break: break-all;
